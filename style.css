@@ -17,7 +17,7 @@
 }
 @font-face {
 	font-family: 'Chewy';
-	src: url('fonts/Chewy/Chewy-Regular.ttf') format('truetype');
+	src: url('Chewy-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -25,7 +25,7 @@
 
 @font-face {
   font-family: 'Pacifico';
-  src: url('fonts/Pacifico/Pacifico-Regular.ttf') format('truetype');
+  src: url('Pacifico-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -283,4 +283,5 @@ a:focus,button:focus,input:focus,textarea:focus{outline:3px solid rgba(37,117,25
 	background-repeat: no-repeat;
 	display:inline-block;
 }
+
 
