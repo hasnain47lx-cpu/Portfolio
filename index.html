@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Hasnain — Portfolio</title>
+	<meta name="description" content="Portfolio — Hasnain. Web developer, designer, and problem solver." />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="code.js" defer></script>
+</head>
+<body>
+	<div class="bg-visuals" aria-hidden="true">
+		<span class="blob b1" data-depth="0.06"></span>
+		<span class="blob b2" data-depth="0.04"></span>
+		<span class="blob b3" data-depth="0.02"></span>
+		<svg class="bg-grid" width="800" height="800" viewBox="0 0 800 800" preserveAspectRatio="xMidYMid slice" focusable="false" aria-hidden="true">
+			<defs>
+				<pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+					<circle cx="2" cy="2" r="1.2" fill="rgba(255,255,255,0.02)"/>
+				</pattern>
+			</defs>
+			<rect width="100%" height="100%" fill="url(#dots)" />
+		</svg>
+	</div>
+	<header class="site-header">
+		<div class="container header-inner">
+			<a class="logo" href="#home">Hasnain</a>
+			<button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+			<nav id="primary-nav" class="primary-nav" aria-label="Primary">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<a class="cta" href="#contact">Hire Me</a>
+		</div>
+	</header>
+<main>
+		<section id="home" class="hero">
+			<div class="container hero-inner">
+				<div class="hero-text reveal-on-scroll">
+						<h1 class="gradient-text">Hi, I'm </h1><span class="bounce-text pacifico"><span>H</span><span>a</span><span>s</span><span>n</span><span>a</span><span>i</span><span>n</span></span>
+						<h2 class="gradient-text">A Front-End Developer</h2>
+					  <p class="lead gradient-text">I build accessible, performant web experiences. I design with clarity and code with care.</p>
+					<p class="hero-ctas">
+						<a class="btn " href="#projects">View Work</a>
+						<a class="btn ghost" href="#contact">Get In Touch</a>
+					</p>
+				</div>
+				<div class="hero-card reveal-on-scroll" aria-hidden="true">
+					<svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" role="img">
+						<rect width="220" height="220" rx="18" fill="url(#g)" />
+						<defs>
+							<linearGradient id="g" x1="0" x2="1">
+								<stop offset="0" stop-color="#6a11cb" />
+								<stop offset="1" stop-color="#2575fc" />
+							</linearGradient>
+						</defs>
+					</svg>
+						<div class="hero-card2" aria-hidden="true">
+						<svg width="120" height="120" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" role="img" style="margin-top: 60px; margin-left: 30px;">
+							<rect width="220" height="220" rx="18" fill="url(#g)" />
+							<defs>
+								<linearGradient id="g" x1="0" x2="1">
+									<stop offset="0" stop-color="#6a11cb" />
+									<stop offset="1" stop-color="#2575fc" />
+								</linearGradient>
+							</defs>
+						</svg>
+					</div>
+						<div class="hero-card3" aria-hidden="true">
+						<svg width="150" height="150" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" role="img" style="margin-top: 60px; margin-left: 30px;">
+							<rect width="220" height="220" rx="18" fill="url(#g)" />
+							<defs>
+								<linearGradient id="g" x1="0" x2="1">
+									<stop offset="0" stop-color="#6a11cb" />
+									<stop offset="1" stop-color="#2575fc" />
+								</linearGradient>
+							</defs>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</section>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<section id="about" class="section">
+			<div class="container">
+				<h2 class="gradient-text">About</h2>
+				<div class="about-grid reveal-on-scroll">
+
+					<!-- <div class="coding-bnb"></div> -->
+					
+					<div class="about-copy">
+						<p>Hi — I'm Hasnain, a front-end developer who builds clear, accessible, and high-performance interfaces. I focus on component-driven UI, progressive enhancement, and practical design systems that scale. I enjoy collaborating with designers and engineers to turn product ideas into polished, usable experiences.</p>
+						<p>Core areas I work in include accessibility, responsive layouts, micro-interactions, and performance optimization. I value readable code, thoughtful UX, and shipping stable features quickly.</p>
+						<p class="about-ctas"><a class="btn" href="#projects">View Work</a> <a class="btn ghost" href="#contact">Contact Me</a></p>
+					</div>
+					<aside class="about-card" aria-label="Profile summary">
+						<div class="profile-pic" aria-hidden="true"></div>
+						<ul class="skills">
+							<li><strong>HTML &amp; CSS</strong> — semantic, responsive</li>
+							<li><strong>JavaScript</strong> — vanilla & modern frameworks</li>
+							<li><strong>Accessibility</strong> — a11y-first approach</li>
+							<li><strong>Performance</strong> — auditing & optimizations</li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects" class="section">
+			<div class="container">
+				<h2 class="reveal-on-scroll gradient-text">Selected Projects</h2>
+				<div class="projects-grid">
+					<article class="project-card reveal-on-scroll">
+						<div class="project-media" aria-hidden="true"></div>
+						<h3>Project One</h3>
+						<p>Responsive landing page with accessible components and a focus on performance.</p>
+						<p><a class="link" href="#">View case study →</a></p>
+					</article>
+
+					  <article class="project-card reveal-on-scroll">
+						<div class="project-media" aria-hidden="true"></div>
+						<h3>Project Two</h3>
+						<p>Interactive dashboard with charts and real-time updates.</p>
+						<p><a class="link" href="#">View case study →</a></p>
+					</article>
+
+					  <article class="project-card reveal-on-scroll">
+						<div class="project-media" aria-hidden="true"></div>
+						<h3>Project Three</h3>
+						<p>Design system and component library used across multiple products.</p>
+						<p><a class="link" href="#">View case study →</a></p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="section contact-section">
+			<div class="container">
+				<h2 class="reveal-on-scroll gradient-text">Contact</h2>
+				<div class="contact-grid">
+					<form id="contact-form" class="reveal-on-scroll" aria-label="Contact form">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="email" required placeholder="your@email.com">
+
+						<label for="message">Message</label>
+						<textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+
+						<button class="btn" type="submit">Send Message</button>
+						<p id="form-msg" class="form-msg" role="status" aria-live="polite"></p>
+					</form>
+
+					  <div class="contact-info reveal-on-scroll">
+						<p><strong>Email:</strong> hello@hasnain.dev</p>
+						<p><strong>Location:</strong> Remote</p>
+						<p>Find me on <a class="link" href="#">GitHub</a> and <a class="link" href="#">LinkedIn</a>.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<p>© <span id="year"></span> Hasnain — Built with care.</p>
+		</div>
+	</footer>
+</body>
+</html>
